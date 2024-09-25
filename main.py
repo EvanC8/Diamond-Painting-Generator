@@ -25,16 +25,16 @@ pixel_map = pixelate(input_image, square_length, width, height)
 
 # quantize pixel_map image; Use palette if provided
 if selected_image.palette is not None:
-    palette_data = selected_image.palette
+    palette = selected_image.palette
 
-    NUM_ENTRIES_IN_PILLOW_PALETTE = 24#256
+    color_count = selected_image.color_count
     num_bands = len("RGB")
-    num_entries = len(palette_data) // num_bands
-    palette_data.extend(palette_data[:num_bands] * (NUM_ENTRIES_IN_PILLOW_PALETTE - num_entries))
+    num_entries = len(palette) // num_bands
+    palette.extend(palette[:num_bands] * (color_count - num_entries))
 
-    arbitrary_size = 6, 4
+    arbitrary_size = 16, 16
     pal_image = Image.new('P', arbitrary_size)
-    pal_image.putpalette(palette_data)
+    pal_image.putpalette(palette)
 
     pixel_map = pixel_map.quantize(palette=pal_image)
 else:
