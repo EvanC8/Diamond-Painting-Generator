@@ -52,7 +52,7 @@ Diamond paintings typically come with around 20 to 30 different colored rhinesto
 # Next Steps
 * Numbering
   * Overlaying the template's rhinestone squares with numbers that correspond to the color in each square. This will allow for easier usage of the template on the user-end.
-* Improving tweaking the abstraction and quantization processes to produce cleaner and more vivid templates.
+* Improving and tweaking the abstraction and quantization processes to produce cleaner and more vivid templates.
 * Creating an algorithm to determine the best color pallete to use for the template.
 * Creating a website
   * A graphical interface will allow users to easily upload images and download their templates.
