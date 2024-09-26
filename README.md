@@ -1,9 +1,10 @@
 # Diamond Painting Generator
 
 Welcome! This program generates custom diamond painting templates from uploaded images. Diamond painting is a popular relaxing DIY craft that involves placing shiny colored rhinestones over a pre-made template to create a decorative art piece. More information about diamond painting can be found [here](https://www.diamondartclub.com/blogs/diamond-painting/what-is-diamond-painting). The program allows users to create their own diamond painting templates for a fun leisure activity and wall decor. Hope you enjoy!<br>
-<!-- <img src="https://github.com/EvanC8/2D-Physics-Engine/assets/137731839/75f1ae1c-479b-4091-96eb-5752c00d31d9" width="200"> -->
 
-![Image cannot be displayed]([http://url/to/img.png](https://github.com/EvanC8/Diamond-Painting-Generator/blob/main/images/image2.jpg))
+<img src="https://github.com/EvanC8/Diamond-Painting-Generator/blob/main/images/image2.jpg?raw=true" height="200"> <img src="https://github.com/EvanC8/Diamond-Painting-Generator/blob/main/Outputs/StarryNight?raw=true" height="200">
+
+The above example shows Vincent van Gogh's Starry Night piece on the left being rendered as a diamond painting template on the right.
 
 <!-- TABLE OF CONTENTS -->
 <details>
